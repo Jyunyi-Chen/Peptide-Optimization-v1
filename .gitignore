@@ -1,0 +1,27 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+
+# Environments
+.env
+.venv
+env/
+venv/
+
+# IDE
+.vscode/
+.idea/
+
+# Training logs & checkpoints
+peptide_optimization/logs/
+
+# Large model files (>50 MB) — download separately
+afp_prediction/ensemble_model/bert/
+hem_prediction/lysispeptica_models_thr10/p843_750_5041chatt_ugml2std.keras
+
+# OS
+.DS_Store
+Thumbs.db
