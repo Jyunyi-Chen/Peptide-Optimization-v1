@@ -35,11 +35,11 @@ config.py               # Hyperparameters and training settings
 > | File | Size | Path | Download |
 > |------|------|------|----------|
 > | AFP ProtBERT checkpoint | ~1.6 GB | `afp_prediction/ensemble_model/bert/ensemble_prot_bert_bfd_epoch1_1e-06.pt` | [HuggingFace](https://huggingface.co/datasets/wccheng1210/AI4AFP_model/resolve/main/ensemble_model/bert/ensemble_prot_bert_bfd_epoch1_1e-06.pt?download=true) |
-> | LysisPeptica HEM model | ~97 MB | `hem_prediction/lysispeptica_models_thr10/p843_750_5041chatt_ugml2std.keras` | *(source repo)* |
+> | LysisPeptica HEM model | ~97 MB | `hem_prediction/lysispeptica_models_thr10/p843_750_5041chatt_ugml2std.keras` | [GitHub](https://github.com/lsbnbiis/LysisPeptica/blob/main/models/thr10/p843_750_5041chatt_ugml2std.keras) (open page → click **Raw** to download) |
 
 ## Requirements
 
-- Python 3.10+
+- Python 3.12.13
 - CUDA-capable GPU recommended
 
 ```bash
