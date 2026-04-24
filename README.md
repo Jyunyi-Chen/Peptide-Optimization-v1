@@ -68,7 +68,7 @@ The dashboard allows real-time monitoring of reward curves, peptide sequences, a
 
 | Parameter | Default | Description |
 |-----------|---------|-------------|
-| `TARGET_PEPTIDE` | `KKFATIAKKFINKLW` | Seed peptide for optimization |
+| `TARGET_PEPTIDE` | `RVKRVWPLVIRTVIAGYNLYRAIKKK` | Seed peptide for optimization |
 | `N_EPISODES` | 100,000 | Training episodes |
 | `TIME_HORIZON` | 5 | Steps per episode |
 | `N_PARALLELS` | 200 | Parallel environments |
